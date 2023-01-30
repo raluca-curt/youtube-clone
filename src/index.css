@@ -64,6 +64,9 @@ a {
 }
 
 @media screen and (max-width: 900px) {
+  html, body {
+    overflow-y: auto;
+  }
   .category-btn{
     margin: 10px;
   }
