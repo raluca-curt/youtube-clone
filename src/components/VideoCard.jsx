@@ -7,7 +7,7 @@ import { demoThumbnailUrl, demoVideoUrl, demoVideoTitle, demoChannelUrl, demoCha
 const VideoCard = ({ video: { id: { videoId }, snippet } }) => {
   console.log(snippet)
   return (
-    <Card sx={{ width: { xs: '100%', md: '320px' }, boxShadow: 'none', borderRadius: 0 }}>
+    <Card sx={{ width: { xs: '100%', md: '320px' }, boxShadow: 'none', borderRadius: 0, maxWidth: {xs: '358px'} }} className="aloo">
       {/* Link to video id */}
       <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>
         <CardMedia 
