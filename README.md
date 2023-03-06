@@ -1,3 +1,10 @@
+# Youtube Clone
+- Desktop view
+![image](https://user-images.githubusercontent.com/89038416/223114174-10c38009-6b60-4b56-9b89-715828acee99.png)
+
+- Mobile view
+<img src="https://user-images.githubusercontent.com/89038416/223113841-7a0c3785-9520-45a1-af98-2b7b6a689136.png" width="300">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
